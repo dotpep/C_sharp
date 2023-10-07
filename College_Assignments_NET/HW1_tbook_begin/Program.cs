@@ -5,21 +5,50 @@ namespace HW1_tbook_begin
     internal class Program
     {
 
-        double Begin1(double a)
+        static double Begin1(double a)
         {
             double perimeter = 4 * a;
             return perimeter;
         }
 
-        static void Main(string[] args)
+        static double Begin2(double a)
         {
-            Console.Write("begin: ");
+            double square = a * a;
+            return square;
+        }
+
+        static double Begin3(double a, double b)
+        {
+            double area = a * b;
+            double perimeter = 2 * (a + b);
+            return area;
+        }
+
+        static double Variable()
+        {
+            Console.Write("input: ");
             double n = Convert.ToDouble(Console.ReadLine());
 
-            Program program = new Program(); // выделение памяти для нового обьекта в классе
-            double result = program.Begin1(n); // использование метода в нашем классе и передать аргумент для метода
+            double result = Begin2(n);
+            return result;
+        }
 
-            Console.WriteLine("output: " + result);
+        static double Variable_2x()
+        {
+            Console.Write("input: ");
+            double n = Convert.ToDouble(Console.ReadLine());
+            Console.Write("input 2: ");
+            double n2 = Convert.ToDouble(Console.ReadLine());
+
+            double result = Begin3(n, n2);
+            return result;
+        }
+
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("output: " + Variable());
+            Console.WriteLine("output: " + Variable_2x());
         }
     }
 }
