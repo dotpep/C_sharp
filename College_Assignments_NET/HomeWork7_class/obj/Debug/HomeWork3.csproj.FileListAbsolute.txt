@@ -1,0 +1,7 @@
+D:\Programming\С#\SimpleCode C(sharp) for newbie playlist lessons\OOP\HomeWork1\bin\Debug\HomeWork1.exe.config
+D:\Programming\С#\SimpleCode C(sharp) for newbie playlist lessons\OOP\HomeWork1\bin\Debug\HomeWork1.exe
+D:\Programming\С#\SimpleCode C(sharp) for newbie playlist lessons\OOP\HomeWork1\bin\Debug\HomeWork1.pdb
+D:\Programming\С#\SimpleCode C(sharp) for newbie playlist lessons\OOP\HomeWork1\obj\Debug\HomeWork3.csproj.AssemblyReference.cache
+D:\Programming\С#\SimpleCode C(sharp) for newbie playlist lessons\OOP\HomeWork1\obj\Debug\HomeWork3.csproj.CoreCompileInputs.cache
+D:\Programming\С#\SimpleCode C(sharp) for newbie playlist lessons\OOP\HomeWork1\obj\Debug\HomeWork1.exe
+D:\Programming\С#\SimpleCode C(sharp) for newbie playlist lessons\OOP\HomeWork1\obj\Debug\HomeWork1.pdb
