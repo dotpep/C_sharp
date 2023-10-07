@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork4_for\bin\Debug\HomeWork4_for.exe.config
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork4_for\bin\Debug\HomeWork4_for.exe
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork4_for\bin\Debug\HomeWork4_for.pdb
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork4_for\obj\Debug\HomeWork4_for.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork4_for\obj\Debug\HomeWork4_for.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork4_for\obj\Debug\HomeWork4_for.exe
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork4_for\obj\Debug\HomeWork4_for.pdb
