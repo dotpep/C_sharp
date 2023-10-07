@@ -17,38 +17,40 @@ namespace HW1_tbook_begin
             return square;
         }
 
-        static double Begin3(double a, double b)
+        static void Begin3(double a, double b, out double area, out double perimeter)
         {
-            double area = a * b;
-            double perimeter = 2 * (a + b);
-            return area;
+            area = a * b;
+            perimeter = 2 * (a + b);
         }
 
         static double Variable()
         {
-            Console.Write("input: ");
+            Console.Write("n: ");
             double n = Convert.ToDouble(Console.ReadLine());
 
             double result = Begin2(n);
             return result;
         }
 
-        static double Variable_2x()
+        static void Variable_2x()
         {
-            Console.Write("input: ");
+            Console.Write("a: ");
             double n = Convert.ToDouble(Console.ReadLine());
-            Console.Write("input 2: ");
+            Console.Write("b: ");
             double n2 = Convert.ToDouble(Console.ReadLine());
 
-            double result = Begin3(n, n2);
-            return result;
+            // method change
+            Begin3(n, n2, out double a, out double b);
+            Console.WriteLine($"First: {a}, Second: {b}");
         }
 
         static void Main(string[] args)
         {
+            // for 1 variable input
+            //Console.WriteLine("output: " + Variable());
 
-            Console.WriteLine("output: " + Variable());
-            Console.WriteLine("output: " + Variable_2x());
+            // call void method
+            Variable_2x();
         }
     }
 }
