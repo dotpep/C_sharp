@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\task16_massiv\bin\Debug\task16_massiv.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\task16_massiv\bin\Debug\task16_massiv.exe
+D:\Programming\C_sharp\Automation_Class_Task\task16_massiv\bin\Debug\task16_massiv.pdb
+D:\Programming\C_sharp\Automation_Class_Task\task16_massiv\obj\Debug\task16_massiv.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\task16_massiv\obj\Debug\task16_massiv.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\task16_massiv\obj\Debug\task16_massiv.exe
+D:\Programming\C_sharp\Automation_Class_Task\task16_massiv\obj\Debug\task16_massiv.pdb
