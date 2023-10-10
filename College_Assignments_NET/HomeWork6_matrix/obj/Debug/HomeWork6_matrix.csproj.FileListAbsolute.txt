@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork6_matrix\bin\Debug\HomeWork6_matrix.exe.config
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork6_matrix\bin\Debug\HomeWork6_matrix.exe
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork6_matrix\bin\Debug\HomeWork6_matrix.pdb
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork6_matrix\obj\Debug\HomeWork6_matrix.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork6_matrix\obj\Debug\HomeWork6_matrix.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork6_matrix\obj\Debug\HomeWork6_matrix.exe
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork6_matrix\obj\Debug\HomeWork6_matrix.pdb
