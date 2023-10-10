@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\College_Assignments_NET\HW1_tbook_if\bin\Debug\HW1_tbook_if.exe.config
+D:\Programming\C_sharp\College_Assignments_NET\HW1_tbook_if\bin\Debug\HW1_tbook_if.exe
+D:\Programming\C_sharp\College_Assignments_NET\HW1_tbook_if\bin\Debug\HW1_tbook_if.pdb
+D:\Programming\C_sharp\College_Assignments_NET\HW1_tbook_if\obj\Debug\HW1_tbook_if.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\College_Assignments_NET\HW1_tbook_if\obj\Debug\HW1_tbook_if.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\College_Assignments_NET\HW1_tbook_if\obj\Debug\HW1_tbook_if.exe
+D:\Programming\C_sharp\College_Assignments_NET\HW1_tbook_if\obj\Debug\HW1_tbook_if.pdb
