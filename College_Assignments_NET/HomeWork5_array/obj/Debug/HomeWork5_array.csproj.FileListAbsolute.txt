@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork5_array\bin\Debug\HomeWork5_array.exe.config
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork5_array\bin\Debug\HomeWork5_array.exe
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork5_array\bin\Debug\HomeWork5_array.pdb
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork5_array\obj\Debug\HomeWork5_array.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork5_array\obj\Debug\HomeWork5_array.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork5_array\obj\Debug\HomeWork5_array.exe
+D:\Programming\C_sharp\College_Assignments_NET\HomeWork5_array\obj\Debug\HomeWork5_array.pdb
