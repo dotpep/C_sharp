@@ -12,7 +12,7 @@ namespace HomeWork5_array
 
         static void Main(string[] args)
         {
-            Array_Diagonal();
+            Array_Vertical();
 
         }
         
@@ -30,7 +30,7 @@ namespace HomeWork5_array
             return 0;
         }
 
-        static int Array_Horizontal()
+        static int Array_Vertical()
         {
             //Console.WriteLine(array[0, 0]);
             //Console.WriteLine(array[1, 0]);
@@ -45,7 +45,7 @@ namespace HomeWork5_array
         }
 
 
-        static int Array_Vertical()
+        static int Array_Horizontal()
         {
             //Console.WriteLine(array[2, 0]);
             //Console.WriteLine(array[2, 1]);
