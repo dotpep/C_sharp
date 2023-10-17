@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n58_encapsulation_opp\bin\Debug\n58_encapsulation_opp.exe.config
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n58_encapsulation_opp\bin\Debug\n58_encapsulation_opp.exe
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n58_encapsulation_opp\bin\Debug\n58_encapsulation_opp.pdb
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n58_encapsulation_opp\obj\Debug\n58_encapsulation_opp.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n58_encapsulation_opp\obj\Debug\n58_encapsulation_opp.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n58_encapsulation_opp\obj\Debug\n58_encapsulation_opp.exe
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n58_encapsulation_opp\obj\Debug\n58_encapsulation_opp.pdb

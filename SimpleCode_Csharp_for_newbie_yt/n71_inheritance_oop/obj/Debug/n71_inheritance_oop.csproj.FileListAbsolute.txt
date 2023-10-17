@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n71_inheritance_oop\bin\Debug\n71_inheritance_oop.exe.config
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n71_inheritance_oop\bin\Debug\n71_inheritance_oop.exe
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n71_inheritance_oop\bin\Debug\n71_inheritance_oop.pdb
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n71_inheritance_oop\obj\Debug\n71_inheritance_oop.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n71_inheritance_oop\obj\Debug\n71_inheritance_oop.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n71_inheritance_oop\obj\Debug\n71_inheritance_oop.exe
+D:\Programming\C_sharp\SimpleCode_Csharp_for_newbie_yt\n71_inheritance_oop\obj\Debug\n71_inheritance_oop.pdb
