@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\task1_basics\bin\Debug\task1_basics.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\task1_basics\bin\Debug\task1_basics.exe
+D:\Programming\C_sharp\Automation_Class_Task\task1_basics\bin\Debug\task1_basics.pdb
+D:\Programming\C_sharp\Automation_Class_Task\task1_basics\obj\Debug\task1_basics.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\task1_basics\obj\Debug\task1_basics.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\task1_basics\obj\Debug\task1_basics.exe
+D:\Programming\C_sharp\Automation_Class_Task\task1_basics\obj\Debug\task1_basics.pdb
