@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\class_task_11_20\bin\Debug\class_task_11_20.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\class_task_11_20\bin\Debug\class_task_11_20.exe
+D:\Programming\C_sharp\Automation_Class_Task\class_task_11_20\bin\Debug\class_task_11_20.pdb
+D:\Programming\C_sharp\Automation_Class_Task\class_task_11_20\obj\Debug\class_task_11_20.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\class_task_11_20\obj\Debug\class_task_11_20.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\class_task_11_20\obj\Debug\class_task_11_20.exe
+D:\Programming\C_sharp\Automation_Class_Task\class_task_11_20\obj\Debug\class_task_11_20.pdb

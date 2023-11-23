@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\compileapp_csharp\bin\Debug\compileapp_csharp.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\compileapp_csharp\bin\Debug\compileapp_csharp.exe
+D:\Programming\C_sharp\Automation_Class_Task\compileapp_csharp\bin\Debug\compileapp_csharp.pdb
+D:\Programming\C_sharp\Automation_Class_Task\compileapp_csharp\obj\Debug\compileapp_csharp.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\compileapp_csharp\obj\Debug\compileapp_csharp.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\compileapp_csharp\obj\Debug\compileapp_csharp.exe
+D:\Programming\C_sharp\Automation_Class_Task\compileapp_csharp\obj\Debug\compileapp_csharp.pdb
