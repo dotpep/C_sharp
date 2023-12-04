@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4\bin\Debug\classes4_task4_array_12_4.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4\bin\Debug\classes4_task4_array_12_4.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4\bin\Debug\classes4_task4_array_12_4.pdb
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4\obj\Debug\classes4_task4_array_12_4.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4\obj\Debug\classes4_task4_array_12_4.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4\obj\Debug\classes4_task4_array_12_4.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4\obj\Debug\classes4_task4_array_12_4.pdb
