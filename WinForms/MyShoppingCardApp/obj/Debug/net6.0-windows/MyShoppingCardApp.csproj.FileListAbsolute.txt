@@ -1,0 +1,16 @@
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\bin\Debug\net6.0-windows\MyShoppingCardApp.exe
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\bin\Debug\net6.0-windows\MyShoppingCardApp.deps.json
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\bin\Debug\net6.0-windows\MyShoppingCardApp.runtimeconfig.json
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\bin\Debug\net6.0-windows\MyShoppingCardApp.dll
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\bin\Debug\net6.0-windows\MyShoppingCardApp.pdb
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.Form1.resources
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.csproj.GenerateResource.cache
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.AssemblyInfoInputs.cache
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.AssemblyInfo.cs
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.dll
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\refint\MyShoppingCardApp.dll
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.pdb
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\MyShoppingCardApp.genruntimeconfig.cache
+D:\Programming\C_sharp\WinForms\MyShoppingCardApp\obj\Debug\net6.0-windows\ref\MyShoppingCardApp.dll
