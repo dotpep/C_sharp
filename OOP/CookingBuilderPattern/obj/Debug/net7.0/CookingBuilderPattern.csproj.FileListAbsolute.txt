@@ -1,0 +1,14 @@
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\bin\Debug\net7.0\CookingBuilderPattern.exe
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\bin\Debug\net7.0\CookingBuilderPattern.deps.json
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\bin\Debug\net7.0\CookingBuilderPattern.runtimeconfig.json
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\bin\Debug\net7.0\CookingBuilderPattern.dll
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\bin\Debug\net7.0\CookingBuilderPattern.pdb
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\CookingBuilderPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\CookingBuilderPattern.AssemblyInfoInputs.cache
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\CookingBuilderPattern.AssemblyInfo.cs
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\CookingBuilderPattern.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\CookingBuilderPattern.dll
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\refint\CookingBuilderPattern.dll
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\CookingBuilderPattern.pdb
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\CookingBuilderPattern.genruntimeconfig.cache
+D:\Programming\C_sharp\OOP\CookingBuilderPattern\obj\Debug\net7.0\ref\CookingBuilderPattern.dll
