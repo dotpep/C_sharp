@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\classes_matrix_spiral\bin\Debug\classes_matrix_spiral.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\classes_matrix_spiral\bin\Debug\classes_matrix_spiral.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes_matrix_spiral\bin\Debug\classes_matrix_spiral.pdb
+D:\Programming\C_sharp\Automation_Class_Task\classes_matrix_spiral\obj\Debug\classes_matrix_spiral.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes_matrix_spiral\obj\Debug\classes_matrix_spiral.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes_matrix_spiral\obj\Debug\classes_matrix_spiral.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes_matrix_spiral\obj\Debug\classes_matrix_spiral.pdb

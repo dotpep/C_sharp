@@ -7,7 +7,6 @@ namespace task2_basics
         static void Main(string[] args)
         {
             Task16();
-            Task23();
         }
 
         static void Task16()

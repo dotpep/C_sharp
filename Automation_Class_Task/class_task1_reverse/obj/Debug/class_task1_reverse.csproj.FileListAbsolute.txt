@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\class_task1_reverse\bin\Debug\class_task1_reverse.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\class_task1_reverse\bin\Debug\class_task1_reverse.exe
+D:\Programming\C_sharp\Automation_Class_Task\class_task1_reverse\bin\Debug\class_task1_reverse.pdb
+D:\Programming\C_sharp\Automation_Class_Task\class_task1_reverse\obj\Debug\class_task1_reverse.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\class_task1_reverse\obj\Debug\class_task1_reverse.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\class_task1_reverse\obj\Debug\class_task1_reverse.exe
+D:\Programming\C_sharp\Automation_Class_Task\class_task1_reverse\obj\Debug\class_task1_reverse.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4_alix\bin\Debug\classes4_task4_array_12_4_alix.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4_alix\bin\Debug\classes4_task4_array_12_4_alix.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4_alix\bin\Debug\classes4_task4_array_12_4_alix.pdb
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4_alix\obj\Debug\classes4_task4_array_12_4_alix.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4_alix\obj\Debug\classes4_task4_array_12_4_alix.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4_alix\obj\Debug\classes4_task4_array_12_4_alix.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes4_task4_array_12_4_alix\obj\Debug\classes4_task4_array_12_4_alix.pdb

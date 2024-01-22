@@ -1,0 +1,7 @@
+D:\Programming\C_sharp\Automation_Class_Task\classes5_pre_exam_15_1\bin\Debug\classes5_pre_exam_15_1.exe.config
+D:\Programming\C_sharp\Automation_Class_Task\classes5_pre_exam_15_1\bin\Debug\classes5_pre_exam_15_1.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes5_pre_exam_15_1\bin\Debug\classes5_pre_exam_15_1.pdb
+D:\Programming\C_sharp\Automation_Class_Task\classes5_pre_exam_15_1\obj\Debug\classes5_pre_exam_15_1.csproj.AssemblyReference.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes5_pre_exam_15_1\obj\Debug\classes5_pre_exam_15_1.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\classes5_pre_exam_15_1\obj\Debug\classes5_pre_exam_15_1.exe
+D:\Programming\C_sharp\Automation_Class_Task\classes5_pre_exam_15_1\obj\Debug\classes5_pre_exam_15_1.pdb
