@@ -6,5 +6,10 @@ class Program
     {
         Console.WriteLine("Bank Account");
         MainBankAccount.TestBankAccount();
+
+        Console.WriteLine("-------");
+
+        Console.WriteLine("Notify System");
+        MainNotifySystem.TestNotifySystem();
     }
 }
