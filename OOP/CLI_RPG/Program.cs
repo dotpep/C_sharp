@@ -27,6 +27,33 @@ public class Character
     }
 }
 
+//2. Static Class, Methods, Attributes:
+public static class GameManager
+{
+    // Static Attribute
+    public static int Level { get; set; } = 1;
+    public static int Experience { get; set; }
+    // Static Mehtod
+    public static void IncreaseLevel(int experience)
+    {
+        Experience += experience;
+
+        while (Experience >= 100)
+        {
+            Level++;
+            Experience -= 100;
+        }
+
+
+    }
+
+    public static void PrintStatsInfo()
+    {
+        Console.WriteLine($"lvl: {Level}");
+        Console.WriteLine($"exp: {Experience}");
+    }
+
+}
 
 internal class Program
 {
@@ -52,8 +79,22 @@ internal class Program
         enemy.printInfo();
     }
 
+    static private void TestGameManager()
+    {
+        GameManager.IncreaseLevel(50);
+        GameManager.IncreaseLevel(20);
+
+        GameManager.PrintStatsInfo();
+
+        GameManager.IncreaseLevel(50);
+        GameManager.PrintStatsInfo();
+
+        GameManager.IncreaseLevel(215);
+        GameManager.PrintStatsInfo();
+    }
+
     private static void Main(string[] args)
     {
-        TestCharacter();
+        TestGameManager();
     }
 }
