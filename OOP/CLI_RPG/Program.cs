@@ -1,6 +1,7 @@
 ﻿// 1. Class, Attribute, Method, Constructor, Object, Instance, Garbage Collector:
 using System.Numerics;
 using System;
+using System.Reflection.PortableExecutable;
 
 public class Character
 {
@@ -23,7 +24,7 @@ public class Character
         get { return _health; }
         set
         {
-            _health = value;
+            _health = Math.Max(0, value);
             CheckDeath();
         }
     }
@@ -33,31 +34,44 @@ public class Character
     {
         if (_health <= 0)
         {
-            _health = 0;
             HandleDeath();
         }
     }
 
-
-    private void HandleDeath()
+    // 6. Polymorphism, virtual
+    protected virtual void HandleDeath()
     {
         // Perform additional logic for handling death
         Console.WriteLine($"{Name} has died!");
         // Additional logic like respawning, game over, etc., can be added here.
     }
 
-
-
     // Method
-    public void Attack(Character target)
+    // 6. Polymorphism, virual
+    public virtual void Attack(Character target)
     {
-        target._health -= AttackDamage;
-        Console.WriteLine($"{Name} attacks {target.Name} for {AttackDamage} damage!");
+        if (_health > 0)
+        {
+            target.Health -= AttackDamage;
+            Console.WriteLine($"{Name} attacks {target.Name} for {AttackDamage} damage!");
+            CheckDeath();
+        }
+        else
+        {
+            Console.WriteLine($"{Name} is dead and cannot attack!");
+        }
     }
 
     public void PrintInfo()
     {
-        Console.WriteLine($"Name: {Name}, Health: {_health}, Attack Dmg: {AttackDamage}");
+        if (_health > 0)
+        {
+            Console.WriteLine($"Name: {Name}, Health: {_health}, Attack Dmg: {AttackDamage}");
+        }
+        else
+        {
+            Console.WriteLine($"{Name} is dead!");
+        }
     }
 
     // 3. Operator Overloading:
@@ -69,6 +83,48 @@ public class Character
                              character1.AttackDamage + character2.AttackDamage);
     }
 }
+
+// 5. Inheritance, base with 6. Polymorphism, overrid
+public class Player : Character
+{
+    public Player(string name, int health, int attackDamage) : base(name, health, attackDamage)
+    {
+    }
+
+    protected override void HandleDeath()
+    {
+        base.HandleDeath();
+        Console.WriteLine("Game Over");
+        Environment.Exit(0);
+    }
+}
+
+public class Enemy : Character
+{
+    public Enemy(string name, int health, int attackDamage) : base(name, health, attackDamage)
+    {
+    }
+
+    protected override void HandleDeath()
+    {
+        base.HandleDeath();
+        Console.WriteLine($"{Name} is defeated!");
+    }
+
+    public override void Attack(Character target)
+    {
+        if (target.Health > 0)
+        {
+            base.Attack(target);
+        }
+        else
+        {
+            Console.WriteLine($"{Name} is dead and cannot attack!");
+        }
+    }
+}
+
+
 
 //2. Static Class, Methods, Attributes:
 public static class GameManager
@@ -181,13 +237,21 @@ internal class Program
 
     static private void TestHealthLogic()
     {
-        Character player = new Character("Satoru", 100, 35);
-        Character enemy = new Character("Goblin", 50, 10);
+        Player player = new Player("Satoru", 100, 35);
+        Enemy enemy = new Enemy("Goblin", 50, 25);
 
         player.Attack(enemy);
         enemy.Attack(player);
-        player.Attack(enemy);
+        player.PrintInfo();
+        enemy.PrintInfo();
 
+        player.Attack(enemy);
+        enemy.Attack(player);
+        player.PrintInfo();
+        enemy.PrintInfo();
+
+        player.Attack(enemy);
+        enemy.Attack(player);
         player.PrintInfo();
         enemy.PrintInfo();
     }
@@ -195,5 +259,6 @@ internal class Program
     private static void Main(string[] args)
     {
         TestHealthLogic();
+        Console.ReadLine();
     }
 }
