@@ -124,6 +124,37 @@ public class Enemy : Character
     }
 }
 
+// 7. Abstract, Abstract Class, Inheritance Abstraction:
+public abstract class Weapon
+{
+    public abstract void Attack(Character target);
+}
+
+public class Sword : Weapon
+{
+    public string Name = "Sword";
+    public int AttackDamage = 65;
+    public override void Attack(Character target)
+    {
+        Console.WriteLine($"weapon {Name} attacked - Name: {target.Name} HP is {target.Health}-{AttackDamage}={target.Health - 65}");
+    }
+}
+
+
+// 8. Interface:
+public interface IHealable
+{
+    void Heal(int amount);
+}
+
+public class Healer : IHealable
+{
+    public void Heal(int amount)
+    {
+        Console.WriteLine($"Healed: {amount}");
+    }
+}
+
 
 
 //2. Static Class, Methods, Attributes:
@@ -186,7 +217,7 @@ public class EncapsulatedCharacter
 
 internal class Program
 {
-    static private void TestCharacter()
+    private static void TestCharacter()
     {
         Character player = new Character("Satoru", 100, 20);
         Character enemy = new Character("Goblin", 50, 10);
@@ -208,7 +239,7 @@ internal class Program
         enemy.PrintInfo();
     }
 
-    static private void TestGameManager()
+    private static void TestGameManager()
     {
         GameManager.IncreaseLevel(50);
         GameManager.IncreaseLevel(20);
@@ -222,7 +253,7 @@ internal class Program
         GameManager.PrintStatsInfo();
     }
 
-    static private void TestCombineCharacter()
+    private static void TestCombineCharacter()
     {
         Character player = new Character("Satoru", 100, 20);
         Character enemy = new Character("Goblin", 50, 10);
@@ -235,7 +266,7 @@ internal class Program
         combinedCharacter.PrintInfo();
     }
 
-    static private void TestHealthLogic()
+    private static void TestHealthLogic()
     {
         Player player = new Player("Satoru", 100, 35);
         Enemy enemy = new Enemy("Goblin", 50, 25);
@@ -254,11 +285,28 @@ internal class Program
         enemy.Attack(player);
         player.PrintInfo();
         enemy.PrintInfo();
+
+        //TestHealthLogic();
+        //Console.ReadLine();
+    }
+
+    private static void TestWeaponAbstract()
+    {
+        Player player = new Player("Satoru", 100, 35);
+        Enemy enemy = new Enemy("Goblin", 100, 25);
+
+        Weapon sword = new Sword();
+        sword.Attack(enemy);
+    }
+
+    private static void TestHealInterface()
+    {
+        IHealable heal = new Healer();
+        heal.Heal(75);
     }
 
     private static void Main(string[] args)
     {
-        TestHealthLogic();
-        Console.ReadLine();
+        TestHealInterface();
     }
 }
