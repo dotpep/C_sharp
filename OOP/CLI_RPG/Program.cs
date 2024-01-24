@@ -2,23 +2,31 @@
 using System.Numerics;
 using System;
 using System.Reflection.PortableExecutable;
+using System.Xml.Linq;
+using System.Diagnostics;
 
 public class Character
 {
     // Attributes
     public string Name { get; set; }
     private int _health;
-    public int AttackDamage { get; set; }
+    public int AttackDamage { get; private set; }
 
     // Constructor
     public Character(string name, int health, int attackDamage)
     {
         Name = name;
         Health = health;
-        AttackDamage = attackDamage;
+        SetAttackDamage(attackDamage);
     }
 
     // Encapsulation Getters and Setters
+    private void SetAttackDamage(int attackDamage)
+    {
+        AttackDamage = attackDamage;
+    }
+
+
     public int Health
     {
         get { return _health; }
@@ -152,6 +160,152 @@ public class Healer : IHealable
     public void Heal(int amount)
     {
         Console.WriteLine($"Healed: {amount}");
+    }
+}
+
+
+// 7. Abstract class (we don't create class instance of abstract class)
+public abstract class LivingCreature
+{
+    public int CurrentHitPoints { get; set; }
+    public int MaximumHitPoints { get; set; }
+
+    public LivingCreature(int currentHitPoints, int maximumHitPoints)
+    {
+        CurrentHitPoints = currentHitPoints;
+        MaximumHitPoints = maximumHitPoints;
+    }
+}
+
+public class Monster : LivingCreature
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public int MaximumDamage { get; set; }
+    public int RewardExperiencePoints { get; set; }
+    public int RewardGold { get; set; }
+
+    public Monster(int id, string name, int maximumDamage,
+        int rewardExperiencePoints, int rewardGold, 
+        int currentHitPoints, int maximumHitPoints) : base(currentHitPoints, maximumHitPoints)
+    {
+        ID = id;
+        Name = name;
+        MaximumDamage = maximumDamage;
+        RewardExperiencePoints = rewardExperiencePoints;
+        RewardGold = rewardGold;
+    }
+}
+public class PlayerSecond : LivingCreature
+{
+    public int Gold { get; set; }
+    public int ExperiencePoints { get; set; }
+    public int Level { get; set; }
+
+    public PlayerSecond(int currentHitPoints, int maximumHitPoints, 
+        int gold, int experiencePoints, 
+        int level) : base(currentHitPoints, maximumHitPoints)
+    {
+        Gold = gold;
+        ExperiencePoints = experiencePoints;
+        Level = level;
+    }
+}
+
+
+
+public abstract class Item
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public string NamePlural { get; set; }
+
+    public Item(int id, string name, string namePlural)
+    {
+        ID = id;
+        Name = name;
+        NamePlural = namePlural;
+    }
+}
+
+public class HealingPotion : Item
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public string NamePlural { get; set; }
+    public int AmountToHeal { get; set; }
+
+    public HealingPotion(int id, string name, string namePlural, int amountToHeal)
+    : base(id, name, namePlural)
+    {
+        AmountToHeal = amountToHeal;
+    }
+}
+
+public class WeaponSecond : Item
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public string NamePlural { get; set; }
+    public int MinimumDamage { get; set; }
+    public int MaximumDamage { get; set; }
+
+    public WeaponSecond(int id, string name, string namePlural,
+     int minimumDamage, int maximumDamage) :
+     base(id, name, namePlural)
+    {
+        MinimumDamage = minimumDamage;
+        MaximumDamage = maximumDamage;
+    }
+}
+
+
+// 8. Interface for player progress Saving featured (we use this interface like type value (type hinting) and iteract with interface)
+
+public interface ILoadUserGame
+{
+    void Save(Player player);
+    void Read(Player player);
+}
+
+public class SaveIntoPlainText : ILoadUserGame
+{
+    public void Read(Player player)
+    {
+        Console.WriteLine($"Saving player {player.Name}'s stats to plain text.");
+    }
+
+    public void Save(Player player)
+    {
+        Console.WriteLine($"Reading player {player.Name}'s stats from plain text.");
+    }
+}
+
+public class SaveIntoJSON : ILoadUserGame
+{
+    public void Read(Player player)
+    {
+        Console.WriteLine($"Saving player {player.Name}'s stats to JSON.");
+    }
+
+    public void Save(Player player)
+    {
+        Console.WriteLine($"Reading player {player.Name}'s stats from JSON.");
+    }
+}
+
+
+// Abstract class
+abstract class Vehicle
+{
+    public abstract void Move();
+}
+
+class Auto : Vehicle
+{
+    public override void Move()
+    {
+        throw new NotImplementedException();
     }
 }
 
@@ -305,8 +459,41 @@ internal class Program
         heal.Heal(75);
     }
 
+    private static void TestAbstractItemLiving()
+    {
+        // int currentHitPoints, int maximumHitPoints, int gold, int experiencePoints, int level
+
+        //public PlayerSecond(int currentHitPoints, int maximumHitPoints,
+        //int gold, int experiencePoints,
+        //int level) : base(currentHitPoints, maximumHitPoints)
+
+        LivingCreature player = new PlayerSecond(
+            currentHitPoints: 10,
+            maximumHitPoints: 100,
+            gold: 10,
+            experiencePoints: 20,
+            level: 1
+        );
+
+        string hp = player.CurrentHitPoints.ToString();
+        Console.WriteLine("HP: " + hp);
+    }
+
+    private static void TestInterfaceSaving()
+    {
+        Player player = new Player("Satoru", 100, 35);
+
+        ILoadUserGame plainTextSaver = new SaveIntoPlainText();
+        plainTextSaver.Save(player);
+        plainTextSaver.Read(player);
+
+        ILoadUserGame jsonSaver = new SaveIntoJSON();
+        jsonSaver.Save(player);
+        jsonSaver.Read(player);
+    }
+
     private static void Main(string[] args)
     {
-        TestHealInterface();
+        TestInterfaceSaving();
     }
 }
