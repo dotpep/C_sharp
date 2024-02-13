@@ -1,4 +1,5 @@
 ﻿// 10.	Найдите все четырехзначные числа с суммой чисел, равной 15
+// 14. same but with different solution usign string
 
 // (four digit number) четырехзначное число: 1000 ... 9999
 

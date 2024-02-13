@@ -1,0 +1,14 @@
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\bin\Debug\net7.0\task_25.exe
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\bin\Debug\net7.0\task_25.deps.json
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\bin\Debug\net7.0\task_25.runtimeconfig.json
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\bin\Debug\net7.0\task_25.dll
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\bin\Debug\net7.0\task_25.pdb
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\task_25.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\task_25.AssemblyInfoInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\task_25.AssemblyInfo.cs
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\task_25.csproj.CoreCompileInputs.cache
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\task_25.dll
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\refint\task_25.dll
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\task_25.pdb
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\task_25.genruntimeconfig.cache
+D:\Programming\C_sharp\Automation_Class_Task\Problem-solving-practical-Exam_2_13_2024\task_25\obj\Debug\net7.0\ref\task_25.dll
